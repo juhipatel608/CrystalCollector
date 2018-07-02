@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div id='container'>	
+	<div id='mainTitleBox'>
+		<div class='titleBox'>Crystal Collectors</div>
+	</div>
+
+	<div id="instructionBox">
+		  <p>
+		  <br>
+            A random number will appear in the game. There are four relics and each relic has a different  numerical value. Try and learn their values by clicking on the relics.
+            You have to match the given number with your guessed number
+            But....choose wisely! If your score goes above the random  gnerated number, you lose!!!
+          </p>
+	</div>
+
+	<div id='mainRanWlBox'>
+		
+		<div class="ranNumBox">
+		</div>
+		<div class="winLoseBox">
+		<br>
+		<br>
+		<br>
+			<p>Wins: </p>
+				<p class="win">0</p>
+				<br>
+				<br>
+			<p>Losses: </p>
+				<p class="loss">0</p>
+		</div>
+	</div>
+	<br>
+	<div id="mainGameButtons">
+		
+			<div type="button" class="crystal-img box b1 arwen" value ='1'>	
+				<img src="assets/images/arwen.jpg" height="150" width="150">
+			</div>
+		
+			<div type="button" class="crystal-img box b2 crown" value='2'>
+				<img src="assets/images/crown.jpg" height="150" width="150">
+			</div>		
+				
+			<div type="button" class="crystal-img box b3 leaf" value ='3'>	
+				<img src="assets/images/leaf.jpg" height="150" width="150">
+			</div>
+				
+			<div type="button" class="crystal-img box b4 ring" value='4'>			
+				<img src="assets/images/ring.jpg" height="150" width="150">	
+			</div>
+		
+	</div>
+
+	<div id="mainScore">
+		<div class="score">
+			<p>Total score:</p>
+		</div>
+		
+		<div class="scoreDisplay">
+			<p class=scoreDisplayChild></p>
+		</div>
+	</div>
+</div>
+</body>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>

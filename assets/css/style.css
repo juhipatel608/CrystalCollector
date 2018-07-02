@@ -1,0 +1,69 @@
+
+#mainTitleBox{
+
+}
+
+.titleBox{
+
+    vertical-align:middle;
+    text-align:center;
+    font-size: 40px;
+}
+
+#instructionBox{
+	font-size: 25px;
+}
+
+#mainRanWlBox{
+    float:right;
+}
+
+.ranNumBox{ 
+
+	font-size: 50px;
+	text-align: center; 
+
+ }
+
+ .winLoseBox{
+    float: left;
+
+ }
+
+ .winLoseBox p{
+ 	font-size: 30px;
+ 
+ }
+
+.crystal-img {
+	display: inline;
+	padding: 2px;
+}
+
+.box{
+    float: left;
+    
+
+}
+
+#mainScore{
+
+	position: relative;
+}
+
+.score{
+	font-size: 50px;
+
+}
+.score p{
+	font-size: 1em;
+
+
+}
+.scoreDisplay{
+    float: left;
+
+}
+.scoreDisplay p{
+	font-size: 5em;
+}
